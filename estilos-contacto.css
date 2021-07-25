@@ -1,0 +1,165 @@
+* {
+    margin: auto; 
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    }
+
+
+*::selection {
+    background: #b7d9e4;
+
+}
+
+#menu {
+    padding: 20px;
+    background-color: #f5f8ff;
+    transition-property: background-color, box-shadow;
+   transition-duration: 600ms;
+}
+
+#menu:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px;
+}
+
+#menu ul li a {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+#menu ul {
+    text-align: center;
+    color: black;
+    list-style: none;
+    padding: 0px;
+}
+
+#menu ul li {
+    color: black;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    color: black;
+    background-color: #ffffff;
+    text-decoration: underline;
+    transition-property: background-color;
+    transition-duration: 600ms;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(193, 226, 243);
+}
+
+#bienvenida {
+    text-align: center;
+    font-size: 300%;
+}
+
+#articulos {
+    margin: 2%;
+    text-decoration: underline;
+    font-size: 300%;
+    transition-property: color;
+    transition-duration: 600ms;
+}
+
+#articulos:hover {
+color: rgb(154, 154, 255);
+}
+    
+body {
+    background-color: #f5f8ff
+
+}
+
+article ul li a {
+    margin: 0%;
+    font-size: 200%;
+    text-decoration: none;
+    transition-property: text-decoration, color;
+    transition-duration: 600ms;
+}
+
+article ul li a:hover    {
+    text-decoration: underline;
+color: rgb(154, 154, 255);
+}
+
+ul > li:hover {
+    color: rgb(154, 154, 255);
+}
+#titulo {
+    color:rgb(0, 0, 0);
+    font-size: 500%;
+    text-align: center;
+
+}
+
+#titulo:hover {
+color:rgb(0, 0, 0);
+font-size: 500%;
+text-align: center;
+animation-name: titulo-animate;
+animation-duration: 5s;
+animation-delay: 0ms;
+}
+
+@keyframes titulo-animate {
+20% {color: rgb(128, 17, 128);}
+40% {color: rgba(165, 165, 4, 0.788);}
+60% {color: rgb(54, 168, 54);}
+80% {color: rgb(87, 87, 87);}
+100% {color: rgb(65, 65, 65);}
+
+}
+
+.rocket {
+    top: 43%;
+    left: 44%;
+}
+
+
+
+
+
+
+
+#encuentrame {
+    text-align: center;
+}
+
+
+div h2 {
+display: inline-block;
+padding: 40px;
+}
+
+div {
+    text-align: center;
+}
+
+#text-twitter {
+    color: black;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+#text-twitter:hover {
+
+    color: rgb(24, 164, 189);
+}
+
+
+#text-instagram {
+    color: black;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+#text-instagram:hover {
+    color: rgb(109, 22, 190);
+}
